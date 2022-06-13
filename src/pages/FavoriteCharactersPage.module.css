@@ -1,0 +1,23 @@
+.header {
+	margin-bottom: 20px;
+	font-size: 3rem;
+}
+
+.empty {
+	font-size: 1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px	;
+	padding: 1rem 2rem;
+	background: rgba(0,0,0,0.5);
+	border: 1px solid #fff;
+}
+
+.list a {
+	color: #fff;
+	font-style: italic;
+	text-decoration-color: aqua;
+}

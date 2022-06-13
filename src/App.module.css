@@ -1,0 +1,29 @@
+.header {
+	padding: 1rem 3rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto 30px;
+}
+.header h1 a{
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.header nav a {
+	color: #fff;
+	font-size: 1.2rem;
+	border: 1px solid #fff;
+	display: flex;
+	padding: 10px 20px;
+	border-radius: 8px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.header nav a:hover {
+	background-color: #fff;
+	color: #000;
+}

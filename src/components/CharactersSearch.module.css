@@ -1,0 +1,46 @@
+.form input {
+	width: 450px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 0px 10px;
+	margin-bottom: 2rem;
+}
+
+.searched-list {
+	position: absolute;
+	background: white;
+	padding: 1rem;
+	overflow: scroll;
+	max-height: 300px;
+	text-align: left;
+	top: 124px;
+	left: 235px;
+	width: 300px;
+}
+.searched-list li {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+.searched-list li:hover a {
+	color: #15c;
+	cursor: pointer;
+}
+.searched-list li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1rem;
+}
+
+.error {
+	color: tomato;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}

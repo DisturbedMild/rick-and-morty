@@ -1,0 +1,43 @@
+.characters-list__item {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+}
+.characters-list__item a {
+	color: #fff;
+	text-decoration-color: blue;
+}
+
+.characters-list__item p + p {
+	margin-top: 10px;
+}
+
+.characters-list__item div {
+	margin-right: 10px;
+}
+
+
+.characters-list__item button {
+	width: 80px;
+	height: 40px;
+	background-color: #1bcdac;
+	color: #fff;
+	font-weight: 700;
+	border:none;
+	border-radius: 40px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.characters-list__item button:hover {
+	background-color: tomato;
+}
+.characters-list__item button.dislike {
+	background-color: tomato;
+}
+
+.dislike:hover {
+	background-color: #1bcdac;
+}
